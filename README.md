@@ -13,6 +13,8 @@ source .venv/bin/activate
 
 ## Testes
 
+Alguns testes estão implementados, para rodá-los use o comando:
+
 ```sh
 pytest ./arquivo.py
 ```
