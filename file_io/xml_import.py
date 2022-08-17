@@ -22,3 +22,9 @@ dataTestXML = [
 def test_xml2arr():
     with open("./file_io/dataTest/dados.xml") as f:
         assert xml2arr(f) == dataTestXML
+
+
+"""
+TODO:
+- parece que a função apenas decodifica o primeiro nível
+"""
