@@ -1,6 +1,6 @@
 # Python3
 
-Repo para estudos e dicas sobre a ferramenta e suas bibliotecas
+Repositorio para salvar exemplos de estudo e dicas sobre a ferramenta e suas bibliotecas.
 
 ## file_io
 
