@@ -9,3 +9,7 @@ def csv2arr(file):
             ob[header[j]] = i[j]
         result.append(ob)
     return result
+
+
+def csv2arrV2(file):
+  return [row for row in csv.DictReader(file)]
