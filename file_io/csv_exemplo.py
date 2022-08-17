@@ -1,4 +1,6 @@
-def csv_decode(file):
+import csv
+
+def csv2arr(file):
     result = []
     header, *data = csv.reader(file, delimiter=",", quotechar='"')
     for i in data:
