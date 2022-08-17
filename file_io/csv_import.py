@@ -47,7 +47,10 @@ dataTest = [
 def test_csv2arr():
 
     with open("./file_io/dataTest/email.csv") as f:
-        list1 = csv2arr(f)
+        assert csv2arr(f) == dataTest
 
-    assert list1 == dataTest
 
+def test_csv2arrV2():
+
+    with open("./file_io/dataTest/email.csv") as f:
+        assert csv2arrV2(f) == dataTest
