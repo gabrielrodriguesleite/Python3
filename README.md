@@ -32,5 +32,7 @@ Alguns exemplos de como converter dados de formatos comuns para arrays python.
 ### Testes:
 
 ```sh
-pytest file_io/csv_import.py 
+pytest file_io/csv_import.py
+pytest file_io/json_import.py
+pytest file_io/xml_import.py
 ```
