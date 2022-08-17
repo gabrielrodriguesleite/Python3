@@ -11,6 +11,12 @@ source .venv/bin/activate
 
 ```
 
+## Testes
+
+```sh
+pytest ./arquivo.py
+```
+
 ## file_io
 
 Alguns exemplos de como converter dados de formatos comuns para arrays python.
