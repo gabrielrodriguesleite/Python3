@@ -12,4 +12,4 @@ def csv2arr(file):
 
 
 def csv2arrV2(file):
-  return [row for row in csv.DictReader(file)]
+    return [row for row in csv.DictReader(file)]
