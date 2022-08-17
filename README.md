@@ -4,6 +4,8 @@ Repositorio para salvar exemplos de estudo e dicas sobre a ferramenta e suas bib
 
 ## Ambiente virtual
 
+Para configurar um ambiente virtual use os comandos:
+
 ```sh
 sudo apt install python3-venv
 python3 -m venv .venv
